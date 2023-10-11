@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Pixelify+Sans:wght@400;500&display=swap');
+
+body 
+{
+     font-family:'gabarito' ,cursive;
+     width: 100vw;
+     height: 100vh;
+     padding: 0;
+     margin: 0;
+     overflow-x: hidden;
+
+     background-color:#fff;
+
+     background-image: url(asset/desktop-wallpaper-white-screen-backgrounds-30-minutes-16-9-white-background.jpg);
+     background-size: contain;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* set the container style*/
+.container 
+{
+    /* set width of the container*/
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0px 100px 0px;
+    /* mengatur tata letak element dengan flexbox */
+    /* posisi element: tengah */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* set the profile image*/
+.img-container img 
+{
+    width: 150px;
+    border-radius: 50%;
+}
+/* ste titile container*/
+.title-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+
+    color: #e6c62f;
+}
+/* set the title and description*/
+.display-container 
+{
+    /* tata letak */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40%;
+
+    /* Warna teks heading dan deskripsi*/
+    color: #e6c62f
+}
+
+/* set the link item element */
+.link-item
+{
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+/* text color and background color */
+   color: #e6c62f;
+   text-decoration: none;
+   background-color: rgb(37,37,37);
+
+/* tata letak */
+   display: flex;
+   justify-content: space-between;
+}
+
+/* set the icon*/
+.icon {
+   margin: 3px 8px;
+   width: 44px;
+   height: 44px;
+}
+
+/* ke tengah dikit*/
+.link-items p{
+    margin-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
